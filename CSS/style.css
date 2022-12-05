@@ -1,0 +1,185 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(207, 207, 207);
+    color: rgb(17, 5, 15);
+    font-family: 'Rubik', sans-serif;
+    max-width: 1000px;
+    padding: 5%;
+    vertical-align: middle;
+    margin: 0px auto;
+}
+
+.headerSection {
+   margin: auto;
+   padding: auto;
+}
+
+.header {
+    color: antiquewhite;
+    border: 2px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Rubik', bold, sans-serif;
+    border-style: outset;
+    border-color: rgb(9, 70, 57);
+    border-radius: 20px/40px;
+    background-color: rgb(13, 84, 78);
+}
+
+.subHeader {
+    color:rgb(15, 16, 17);
+    text-align: center;
+    font-family: 'Rubik', bold, sans-serif;
+    font-weight: bold; 
+}
+
+.container {
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: inset 5px -5px 16px -4px #51E8A6;
+   margin:50px auto;
+   padding: 2%;
+}
+
+.picture {
+    display: block;
+    margin: 20px auto;
+    max-width: 15%;
+    font-family:  Lato, 'Rubik', sans-serif;
+}
+
+.list {
+    text-align: center;
+    line-height: 1.5;
+    padding:5px;
+    margin: 5px;
+}
+
+.navigation {
+    background-color: rgb(73, 173, 164);
+    color: antiquewhite;
+    font-family: Lato, 'Rubik', sans-serif;
+    font-weight: bold;
+    max-width: 1000px;
+    padding: 2%;
+    margin: 20px auto;
+    border-style: outset;
+    border-color: rgb(36, 126, 130);
+}
+
+.navigationListItem {
+    display: inline;
+    margin: 5px;
+    list-style-type: none;
+    text-decoration: none; 
+}
+
+.listItem {
+    margin: 8px 0;
+    list-style-position: inside;
+}
+
+.link {
+    font-family: Lato, 'Rubik', sans-serif;
+    background-color: rgb(73, 173, 164);
+    color:black;
+}
+
+.quotesList {
+    background-color: rgba(145, 215, 203, 0.905);
+    color: rgb(17, 5, 15);
+    text-shadow: 1px 2px 5px rgb(155, 152, 152);
+    font-family: Lato, 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 30%;
+    padding: 2%;
+    border: 1px solid rgb(1, 83, 104);
+}
+
+.tableCaption {
+    margin-top: 0px;
+    caption-side: bottom;
+    text-align: right;
+    border: 2px solid rgb(43, 36, 43);
+    font-family: Lato, 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    vertical-align: middle;
+    overflow-x: auto;
+}
+
+.tableCell {
+    border: 2px solid rgb(43, 36, 43);
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tableHeader {
+    background: rgb(27, 165, 136);
+    font-weight: normal;
+}
+
+.tableRow:hover {
+    background-color: rgba(171, 217, 211, 0.831);
+    }
+
+.farewell {
+    color: rgb(13, 84, 78);
+    text-align: center;
+    font-family: Lato, 'Rubik', sans-serif;
+    margin-top: 5%;
+}
+
+ .newSection {
+    outline-style:dashed;
+    outline-color:rgb(1, 58, 74);
+}
+
+.buttonGreetings {
+   background-color: rgb(13, 84, 78);
+   color: antiquewhite;
+   display: block;
+   margin:10px auto;
+   padding: 2%;
+   font-family: Lato, 'Rubik', sans-serif;
+}
+
+.footer {
+    background-color: rgb(1, 58, 74);
+    font-family: Lato, 'Rubik', sans-serif;
+    color: antiquewhite;
+    font-size: 10px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 2%;
+}
+
+p:hover, h1:hover, a:hover {
+    background-color: rgb(109, 142, 139);
+}
+
+a:-webkit-any-link {
+    color: antiquewhite;
+    text-decoration: none;
+    text-decoration-thickness: unset;
+    text-decoration-style: unset;
+    text-decoration-color: unset;
+}
