@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    vertical-align: middle;
+    overflow-x: auto;
+}
+
+.table__caption {
+    margin-top: 0px;
+    caption-side: bottom;
+    text-align: right;
+    border: 2px solid rgb(43, 36, 43);
+    font-family: Lato, 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.table__cell {
+    border: 2px solid rgb(43, 36, 43);
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table__header {
+    background: rgb(27, 165, 136);
+    font-weight: normal;
+}
+
+.table__row:hover {
+    background-color: rgba(171, 217, 211, 0.831);
+    }

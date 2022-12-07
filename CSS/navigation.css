@@ -1,0 +1,26 @@
+.navigation {
+    background-color: rgb(73, 173, 164);
+    color: antiquewhite;
+    font-family: Lato, 'Rubik', sans-serif;
+    font-weight: bold;
+    max-width: 1000px;
+    padding: 2%;
+    margin: 20px auto;
+    border-style: outset;
+    border-color: rgb(36, 126, 130);
+}
+
+.navigation__list {
+    text-align: center;
+    line-height: 1.5;
+    padding:5px;
+    margin: 5px;
+}
+
+
+.navigation__listItem {
+    display: inline;
+    margin: 5px;
+    list-style-type: none;
+    text-decoration: none; 
+}

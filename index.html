@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joanna Draganek - Technologist, Junior Front-End</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,20 +30,20 @@
     </header>
 
     <nav class="navigation">
-        <ul class="list">
-            <li class="navigationListItem">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
                 <a href="#why-it">Why IT</a>
             </li>
-            <li class="navigationListItem">
+            <li class="navigation__listItem">
                 <a href="#why-youcode">Why YouCode</a>
             </li>
-            <li class="navigationListItem">
+            <li class="navigation__listItem">
                 <a href="#my-first-steps">My first steps in coding</a>
             </li>
-            <li class="navigationListItem">
+            <li class="navigation__listItem">
                 <a href="#my-free-time">My free time</a>
             </li>
-            <li class="navigationListItem">
+            <li class="navigation__listItem">
                 <a href="#my-favorite-quotes">My favorite quotes</a>
             </li>
         </ul>
@@ -81,7 +87,7 @@
                     </p>
                 </section>         
            
-                <section class="container newSection" id="why-youcode">
+                <section class="container container--special" id="why-youcode">
                     <h2>Why YouCode</h2>
                     <p>
                         I found the course through a Facebook ad. I liked that the course offers full access to the
@@ -117,47 +123,47 @@
                         In my free time I:
                     </p>
                     <ul class="list">
-                        <li class="listItem">bake cakes</li>
-                        <li class="listItem">listen to music </li>
-                        <li class="listItem">listen to podcasts</li>
-                        <li class="listItem">ride a bicycle</li>
+                        <li class="list__item">bake cakes</li>
+                        <li class="list__item">listen to music </li>
+                        <li class="list__item">listen to podcasts</li>
+                        <li class="list__item">ride a bicycle</li>
                     </ul>
                 </div>
 
                 <div class="container">
                     <table class="table">
-                        <caption class="tableCaption">
+                        <caption class="table__caption">
                             My favorite music
                         </caption>
                         <tr>
-                            <th class="tableCell" scope="col">Title</th>
-                            <th class="tableCell" scope="col">Artist</th>
-                            <th class="tableCell" scope="col">Album</th>
-                            <th class="tableCell" scope="col">The year of publishment</th>
+                            <th class="table__cell" scope="col">Title</th>
+                            <th class="table__cell" scope="col">Artist</th>
+                            <th class="table__cell" scope="col">Album</th>
+                            <th class="table__cell" scope="col">The year of publishment</th>
                         </tr>
-                        <tr class="tableRow">
-                            <th class="tableCell tableHeader" scope="row">Keeping Me Alive</th>
-                            <td class="tableCell" rowspan="2">Jonathan Roy</td>
-                            <td class="tableCell">My Lullaby</td>
-                            <td class="tableCell">2019</td>
+                        <tr class="table__row">
+                            <th class="table__cell tableHeader" scope="row">Keeping Me Alive</th>
+                            <td class="table__cell" rowspan="2">Jonathan Roy</td>
+                            <td class="table__cell">My Lullaby</td>
+                            <td class="table__cell">2019</td>
                         </tr>
-                        <tr class="tableRow">
-                            <th class="tableCell tableHeader" scope="row">Beautiful Day</th>
-                            <td class="tableCell">Mr Optimist Blues</td>
-                            <td class="tableCell">2017</td>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Beautiful Day</th>
+                            <td class="table__cell">Mr Optimist Blues</td>
+                            <td class="table__cell">2017</td>
                         </tr>
-                        <tr class="tableRow">
-                            <th class="tableCell tableHeader" scope="row">Believer</th>
-                            <td class="tableCell">Imagine Dragons</td>
-                            <td class="tableCell">Evolve</td>
-                            <td class="tableCell">2017</td>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Believer</th>
+                            <td class="table__cell">Imagine Dragons</td>
+                            <td class="table__cell">Evolve</td>
+                            <td class="table__cell">2017</td>
                         </tr>
 
-                        <tr class="tableRow">
-                            <th class="tableCell tableHeader" scope="row">Death By Rock And Roll</th>
-                            <td class="tableCell">The Pretty Reckless</td>
-                            <td class="tableCell">Fearless Records</td>
-                            <td class="tableCell">2021</td>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row">Death By Rock And Roll</th>
+                            <td class="table__cell">The Pretty Reckless</td>
+                            <td class="table__cell">Fearless Records</td>
+                            <td class="table__cell">2021</td>
                         </tr>
                     </table>
                 </div>

@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: inset 5px -5px 16px -4px #51E8A6;
+   margin:50px auto;
+   padding: 2%;
+}
+
+.container--special {
+    outline-style:dashed;
+    outline-color:rgb(1, 58, 74);
+}
