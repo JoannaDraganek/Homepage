@@ -29,7 +29,7 @@ html {
 }
 
 .header__Section {
-    margin: auto;
+    margin: 10px auto;
     padding: auto;
  }
 
@@ -38,12 +38,12 @@ html {
     text-align: center;
     font-family: 'Rubik', bold, sans-serif;
     font-weight: bold; 
+    margin: 20px auto;
 }
 
 .picture {
-    display: block;
-    margin: 20px auto;
-    max-width: 15%;
+    margin: 0px auto;
+    max-width: 25%;
     font-family:  Lato, 'Rubik', sans-serif;
 }
 
@@ -60,7 +60,7 @@ html {
     font-family: Lato, 'Rubik', sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    width: 30%;
+    max-width: 30%;
     padding: 2%;
     border: 1px solid rgb(1, 83, 104);
 }
