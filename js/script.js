@@ -1,14 +1,34 @@
+{
+    const welcome = () => {
+        console.log("Hello Developers! Enjoy reading!");
+    };
+   
+    const toggleBackground = () => {
+        const body = document.documentElement;
+        const nextColorName = document.querySelector(".js-nextColorName");
+        body.classList.toggle("body--dark");
+        nextColorName.innerText = body.classList.contains("body--dark") ? "bright" : "dark";
+    };
+        
 
-console.log("Hello! Enjoy reading :)");
+    const onButtonChangeTextFarwellClick = () => {
+        farewell.innerHTML = "I cordially greet you";
+    };
 
-let buttonGreetings = document.querySelector(".buttonGreetings");
-let farewell = document.querySelector(".farewell");
+    const onButtonChangeTextFarwellDblclick = () => {
+        farewell.innerHTML = "Thank you for your attention :)";
+    };
 
-buttonGreetings.addEventListener("click", () => {
-    farewell.innerHTML = "I cordially greet you";
-});
+    let farewell = document.querySelector(".farewell");
+    
+    const init = () => {    
+        let ChangeBackgroundButton = document.querySelector(".js-changeBackgroundButton"); 
+        let ChangeTextFarwellButton = document.querySelector(".js-ChangeTextFarwellButton");
+        ChangeBackgroundButton.addEventListener("click", toggleBackground);
+        ChangeTextFarwellButton.addEventListener("click", onButtonChangeTextFarwellClick);
+        ChangeTextFarwellButton.addEventListener("dblclick", onButtonChangeTextFarwellDblclick);
+        welcome();
+    }
 
-buttonGreetings.addEventListener("dblclick", () => {
-    farewell.innerHTML = "Thank you for your attention :)";
-});
-
+    init ();
+};
