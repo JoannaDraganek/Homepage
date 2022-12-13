@@ -3,14 +3,12 @@
         console.log("Hello Developers! Enjoy reading!");
     };
    
-    const toggleBackground = () => {
-        const body = document.documentElement;
-        const nextColorName = document.querySelector(".js-nextColorName");
+    const toggleBackground = (ChangeBackgroundButton) => {
+        const body = document.querySelector(".js-body");
         body.classList.toggle("body--dark");
-        nextColorName.innerText = body.classList.contains("body--dark") ? "bright" : "dark";
+        ChangeBackgroundButton.innerText = body.classList.contains("body--dark") ? "dark grey" : "bright grey";
     };
         
-
     const onButtonChangeTextFarwellClick = () => {
         farewell.innerHTML = "I cordially greet you";
     };
@@ -24,7 +22,8 @@
     const init = () => {    
         let ChangeBackgroundButton = document.querySelector(".js-changeBackgroundButton"); 
         let ChangeTextFarwellButton = document.querySelector(".js-ChangeTextFarwellButton");
-        ChangeBackgroundButton.addEventListener("click", toggleBackground);
+        ChangeBackgroundButton.addEventListener("click",() => {
+            toggleBackground(ChangeBackgroundButton)}); 
         ChangeTextFarwellButton.addEventListener("click", onButtonChangeTextFarwellClick);
         ChangeTextFarwellButton.addEventListener("dblclick", onButtonChangeTextFarwellDblclick);
         welcome();
