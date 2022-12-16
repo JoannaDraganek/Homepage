@@ -2,32 +2,36 @@
     const welcome = () => {
         console.log("Hello Developers! Enjoy reading!");
     };
-   
-    const toggleBackground = (ChangeBackgroundButton) => {
+
+    const toggleBackground = (changeBackgroundButton) => {
         const body = document.querySelector(".js-body");
         body.classList.toggle("body--dark");
-        ChangeBackgroundButton.innerText = body.classList.contains("body--dark") ? "dark grey" : "bright grey";
+        changeBackgroundButton.innerText = body.classList.contains("body--dark") ? "dark grey" : "bright grey";
     };
-        
-    const onButtonChangeTextFarwellClick = () => {
+
+    const onButtonChangeTextFarwellClick = (farewell) => {
         farewell.innerHTML = "I cordially greet you";
     };
 
-    const onButtonChangeTextFarwellDblclick = () => {
+    const onButtonChangeTextFarwellDblclick = (farewell) => {
         farewell.innerHTML = "Thank you for your attention :)";
     };
 
-    let farewell = document.querySelector(".farewell");
-    
-    const init = () => {    
-        let ChangeBackgroundButton = document.querySelector(".js-changeBackgroundButton"); 
-        let ChangeTextFarwellButton = document.querySelector(".js-ChangeTextFarwellButton");
-        ChangeBackgroundButton.addEventListener("click",() => {
-            toggleBackground(ChangeBackgroundButton)}); 
-        ChangeTextFarwellButton.addEventListener("click", onButtonChangeTextFarwellClick);
-        ChangeTextFarwellButton.addEventListener("dblclick", onButtonChangeTextFarwellDblclick);
+    const init = () => {
+        let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        let changeTextFarwellButton = document.querySelector(".js-ChangeTextFarwellButton");
+        let farewell = document.querySelector(".farewell");
+        changeBackgroundButton.addEventListener("click", () => {
+            toggleBackground(changeBackgroundButton)
+        });
+        changeTextFarwellButton.addEventListener("click", () => {
+            onButtonChangeTextFarwellClick(farewell)
+        });
+        changeTextFarwellButton.addEventListener("dblclick", () => {
+            onButtonChangeTextFarwellDblclick(farewell)
+        });
         welcome();
     }
 
-    init ();
+    init();
 };
