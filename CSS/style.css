@@ -47,14 +47,13 @@ html {
 
 .picture {
     margin: 0px auto;
-    max-width: 25%;
+    max-width: 40%;
     font-family:  Lato, 'Rubik', sans-serif;
 }
 
 .link {
     font-family: Lato, 'Rubik', sans-serif;
-    background-color: rgb(73, 173, 164);
-    color:black;
+    color: rgb(1, 116, 106); 
 }
 
 .quotesList {
@@ -100,7 +99,7 @@ p:hover, h1:hover, a:hover {
 }
 
 a:-webkit-any-link {
-    color: antiquewhite;
+    color: rgb(36, 146, 8);
     text-decoration: none;
     text-decoration-thickness: unset;
     text-decoration-style: unset;
