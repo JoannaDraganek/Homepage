@@ -1,6 +1,6 @@
 # Joanna Draganek - my website
 
-![screenshotMyHomepage](https://imgur.com/DEetBi6.jpg)
+![screenshotMyHomepage](https://i.imgur.com/HQCLnJc.jpg)
 
 ## Demo
 https://joannadraganek.github.io/Homepage/
